@@ -68,11 +68,7 @@ class BoolArray:
         
         string=str(self)
         
-        sm=0
-        if self.n%4 !=0:
-           while string[0]=="0":
-               sm+=1
-               string=string[1:]
+    
         string=hex(int(string,2))
         string=string[2:]
 
